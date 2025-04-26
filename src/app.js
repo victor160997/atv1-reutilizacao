@@ -15,7 +15,7 @@ app.use('/api/tasks', taskRoutes);
 
 // Rota de status para verificação de saúde da API
 app.get('/health', (req, res) => {
-    res.status(200).json({ status: 'OK', message: 'API está funcionando! - teste de deploy automatizado' });
+    res.status(200).json({ status: 'OK', message: 'API está funcionando! - feature-2' });
 });
 
 // Iniciar o servidor apenas se não estiver em ambiente de teste
