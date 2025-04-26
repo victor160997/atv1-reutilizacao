@@ -16,7 +16,7 @@ app.use('/api/tasks', taskRoutes);
 // Rota de status para verificação de saúde da API
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', message: 'API está funcionando! - feature-2' });
-});
+S});
 
 // Iniciar o servidor apenas se não estiver em ambiente de teste
 if (process.env.NODE_ENV !== 'test') {
